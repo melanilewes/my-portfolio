@@ -1,6 +1,7 @@
 import { GraduationCap, Globe, Users, FileText } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useRef, useState } from "react";
+import profile from "/assets/img/profile.png";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -54,7 +55,7 @@ const About = () => {
           >
             <div className="w-72 h-72 overflow-hidden shadow-lg">
               <img
-                src="/assets/img/profile.png"  /* update path if needed */
+                src={profile}  /* update path if needed */
                 alt="Melani Lewes"
                 className="object-cover w-full h-full"
               />
