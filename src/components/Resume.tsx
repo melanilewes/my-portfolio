@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import resume from "/assets/docs/resume.pdf";
 
 const pageVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -101,7 +102,7 @@ const Resume = () => {
               <Dialog open={open} onOpenChange={setOpen}>
                 <DialogContent className="max-w-3xl w-full p-0">
                   <embed
-                    src="/assets/docs/resume.pdf#view=FitH"
+                    src={resume}
                     type="application/pdf"
                     width="100%"
                     height="600px"
