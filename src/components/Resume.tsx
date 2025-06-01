@@ -76,7 +76,7 @@ const Resume = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                 <Button asChild size="lg">
                   <a
-                    href="https://drive.google.com/file/d/1MxOSvJdAVbVKarCLykNWGoI6cpCG9SP4/view"
+                    href="https://drive.google.com/file/d/1M5vjLBE68xYqZ6RqC2PQ5oFMk0yiGA-k/view"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-pink-mist text-white px-8 py-3 rounded-full transform transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-mist focus:ring-offset-2"
